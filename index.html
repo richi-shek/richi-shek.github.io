@@ -1,0 +1,715 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body class="_theme-github"><link rel="stylesheet" type="text/css" href="chrome-extension://ckkdlimhmcjmikdlpkmbgfkaikojcbjk/themes/github.css" id="_theme"><link rel="stylesheet" type="text/css" href="chrome-extension://ckkdlimhmcjmikdlpkmbgfkaikojcbjk/vendor/prism.min.css" id="_prism"><div id="_html" class="markdown-body _width-undefined"><h1 id="logic-gate"><a class="anchor" name="logic-gate" href="#logic-gate"><span class="octicon octicon-link"></span></a>Logic Gate</h1>
+<h2 id="and-gate"><a class="anchor" name="and-gate" href="#and-gate"><span class="octicon octicon-link"></span></a>AND Gate</h2>
+<p><img src="IT3901_AND.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h2 id="or-gate"><a class="anchor" name="or-gate" href="#or-gate"><span class="octicon octicon-link"></span></a>OR Gate</h2>
+<p><img src="IT3901_OR.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h2 id="not-gate"><a class="anchor" name="not-gate" href="#not-gate"><span class="octicon octicon-link"></span></a>NOT Gate</h2>
+<p><img src="IT3901_NOT.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h2 id="xor-gate"><a class="anchor" name="xor-gate" href="#xor-gate"><span class="octicon octicon-link"></span></a>XOR Gate</h2>
+<p><img src="IT3901_XOR.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h2 id="nand-gate"><a class="anchor" name="nand-gate" href="#nand-gate"><span class="octicon octicon-link"></span></a>NAND Gate</h2>
+<p><img src="IT3901_NAND.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h2 id="nor-gate"><a class="anchor" name="nor-gate" href="#nor-gate"><span class="octicon octicon-link"></span></a>NOR Gate</h2>
+<p><img src="IT3901_NOR.png" alt="alt text"></p>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>output</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h1 id="storage"><a class="anchor" name="storage" href="#storage"><span class="octicon octicon-link"></span></a>Storage</h1>
+<table>
+<thead>
+<tr>
+<th>Storage</th>
+<th>Data volatility</th>
+<th>CPU accessiblity</th>
+<th>Price</th>
+<th>Storage space</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Primary</td>
+<td>Volatile</td>
+<td>direct</td>
+<td>more expensive</td>
+<td>Less</td>
+</tr>
+<tr>
+<td>Secondary</td>
+<td>Non-volatile</td>
+<td>not direct</td>
+<td>cheaper</td>
+<td>More</td>
+</tr>
+</tbody></table>
+<h2 id="primary-storage"><a class="anchor" name="primary-storage" href="#primary-storage"><span class="octicon octicon-link"></span></a>Primary storage</h2>
+<ul>
+<li>Examples of primary storage device: RAM, Cache</li>
+<li>volatile: the data are lost when the computer is powered off</li>
+<li>CPU can access data in primary storage directly</li>
+</ul>
+<h2 id="secondary-storage"><a class="anchor" name="secondary-storage" href="#secondary-storage"><span class="octicon octicon-link"></span></a>Secondary storage</h2>
+<ul>
+<li>Example of secondary storage device: hard disk drive, USB flash drives, floppy disks</li>
+<li>Secondary storage is not directly accessible by CPU.</li>
+<li>A computer keeps its data for a longer time in secondary storage</li>
+</ul>
+<h1 id="cpu"><a class="anchor" name="cpu" href="#cpu"><span class="octicon octicon-link"></span></a>CPU</h1>
+<h2 id="arithmetic-and-logic-unit-alu"><a class="anchor" name="arithmetic-and-logic-unit-alu" href="#arithmetic-and-logic-unit-alu"><span class="octicon octicon-link"></span></a>Arithmetic and Logic Unit (ALU)</h2>
+<ul>
+<li>The ALU performs both arithmetic and logical operations</li>
+<li>Arithmetic operations: fundamental math operations like addition, subtraction, multiplication, and division</li>
+<li>Logical operations: such as AND, OR and XOR make comparisons and decisions, and these determine how a program is executed</li>
+<li>For modern CPU, it may have two or more ALU</li>
+</ul>
+<h2 id="control-unit-cu"><a class="anchor" name="control-unit-cu" href="#control-unit-cu"><span class="octicon octicon-link"></span></a>Control Unit (CU)</h2>
+<ul>
+<li>instructs the rest of the computer system on how to follow a program’s instructions.</li>
+<li>directs the movement of data to and from processor memory.</li>
+</ul>
+<h2 id="internal-cpu-bus"><a class="anchor" name="internal-cpu-bus" href="#internal-cpu-bus"><span class="octicon octicon-link"></span></a>Internal CPU Bus</h2>
+<ul>
+<li>responsible for data / control signal transfer between the various units (e.g. ALU, registers and control unit).</li>
+</ul>
+<h2 id="registers"><a class="anchor" name="registers" href="#registers"><span class="octicon octicon-link"></span></a>Registers</h2>
+<ul>
+<li>temporarily storage within the CPU (e.g. instructions and data)</li>
+</ul>
+<h1 id="components-on-a-motherboard"><a class="anchor" name="components-on-a-motherboard" href="#components-on-a-motherboard"><span class="octicon octicon-link"></span></a>Components on a motherboard</h1>
+<ul>
+<li>CPU</li>
+<li>Controller circuitry</li>
+<li>Bus</li>
+<li>RAM</li>
+<li>Expansion slots for additional boards</li>
+<li>Ports for external devices</li>
+<li>Complementary Metal-Oxide Semiconductor (CMOS)</li>
+<li>Other Read Only memory (ROM)</li>
+<li>BIOS chips</li>
+</ul>
+<h1 id="storage-media-of-access-time"><a class="anchor" name="storage-media-of-access-time" href="#storage-media-of-access-time"><span class="octicon octicon-link"></span></a>Storage media of access time</h1>
+<ul>
+<li>shortest -&gt; longest</li>
+<li>Cache -&gt; RAM -&gt; Hard disk -&gt; DVD -&gt; Tape</li>
+</ul>
+<h1 id="level-1-cache-internal"><a class="anchor" name="level-1-cache-internal" href="#level-1-cache-internal"><span class="octicon octicon-link"></span></a>Level 1 Cache (Internal)</h1>
+<ul>
+<li>The Level 1 cache, or primary cache, is on the CPU and is used for temporary storage of instructions and data organized in blocks. </li>
+<li>Primary cache is the fastest form of storage. Because it's built in to the chip with a zero wait-state (delay) interface to the processor's execution unit. </li>
+<li>Level 1 cache is implemented using Static RAM (SRAM). (This is contrasted to dynamic RAM (DRAM), which must be refreshed many times per second in order to hold its data contents).</li>
+<li>Modern CPU usually has a separate Level 1 cache for each core.</li>
+</ul>
+<h1 id="four-basic-operations-of-operating-system"><a class="anchor" name="four-basic-operations-of-operating-system" href="#four-basic-operations-of-operating-system"><span class="octicon octicon-link"></span></a>Four basic operations of operating system</h1>
+<ol>
+<li>input</li>
+<li>output</li>
+<li>processing</li>
+<li>storage</li>
+</ol>
+<h1 id="factors-that-affect-the-performance-of-a-display-device"><a class="anchor" name="factors-that-affect-the-performance-of-a-display-device" href="#factors-that-affect-the-performance-of-a-display-device"><span class="octicon octicon-link"></span></a>factors that affect the performance of a display device</h1>
+<ul>
+<li>Screen size, dot pitch, response time, color depth, contrast ratio, screen resolution</li>
+</ul>
+<h1 id="levels-of-memory-hierarchy"><a class="anchor" name="levels-of-memory-hierarchy" href="#levels-of-memory-hierarchy"><span class="octicon octicon-link"></span></a>Levels of Memory Hierarchy</h1>
+<ul>
+<li>Size: Smaller(CPU) -&gt; Larger(Tape)
+<img src="IT3901_2.png" alt="alt text"></li>
+</ul>
+<h1 id="the-chipset"><a class="anchor" name="the-chipset" href="#the-chipset"><span class="octicon octicon-link"></span></a>The Chipset</h1>
+<ul>
+<li>A chipset is a set of chips on the motherboard that collectively controls the memory cache, external bus, and some peripherals.</li>
+<li>Major Chipset Manufacturers: Intel, SiS, nVidia, ATI and ALi</li>
+<li>e.g. Intel Z390, AMD X570
+<img src="IT3901_1.png" alt="alt text"></li>
+</ul>
+<h1 id="advantages-of-using-command-line-interfacecli"><a class="anchor" name="advantages-of-using-command-line-interfacecli" href="#advantages-of-using-command-line-interfacecli"><span class="octicon octicon-link"></span></a>Advantages of using Command Line Interface(CLI)</h1>
+<ul>
+<li>Simple, Low overhead</li>
+<li>Stable and reliable</li>
+<li>Users have more controls on the operating system and file system</li>
+<li>Allow administrator to administer the system by remote login</li>
+</ul>
+<h1 id="advantages-for-using-graphical-user-interface-gui"><a class="anchor" name="advantages-for-using-graphical-user-interface-gui" href="#advantages-for-using-graphical-user-interface-gui"><span class="octicon octicon-link"></span></a>Advantages for using graphical user interface GUI:</h1>
+<ul>
+<li>Appealing </li>
+<li>More user-friendly</li>
+<li>Easier to learn</li>
+</ul>
+<h1 id="daemon"><a class="anchor" name="daemon" href="#daemon"><span class="octicon octicon-link"></span></a>Daemon</h1>
+<ul>
+<li>a process that runs on background</li>
+<li>Not under the direct control of an interactive user</li>
+<li>Does not have any screen output but waits for certain system activity then acts on it</li>
+<li>The parent process of a daemon is usually the init process</li>
+<li>launched during booting (i.e., computer startup) and run unobtrusively in the background until they are activated by a particular event or condition.</li>
+</ul>
+<h1 id="directory-layout"><a class="anchor" name="directory-layout" href="#directory-layout"><span class="octicon octicon-link"></span></a>Directory Layout</h1>
+<ul>
+<li>/ - root, highest of the hierarchy</li>
+<li>/etc -  local configuration files</li>
+<li>/bin - executables files</li>
+<li>/sbin - system utilities files (Administrator only)</li>
+<li>/lib - system library</li>
+<li>/dev - interface to device</li>
+<li>/usr - User application</li>
+</ul>
+<h1 id="absolute-path-of-the-important-file"><a class="anchor" name="absolute-path-of-the-important-file" href="#absolute-path-of-the-important-file"><span class="octicon octicon-link"></span></a>Absolute path of the important file</h1>
+<h3 id="varlog"><a class="anchor" name="varlog" href="#varlog"><span class="octicon octicon-link"></span></a>/var/log</h3>
+<ul>
+<li>Location of Log Files</li>
+</ul>
+<h3 id="etcsystemdsystemdefaulttarget"><a class="anchor" name="etcsystemdsystemdefaulttarget" href="#etcsystemdsystemdefaulttarget"><span class="octicon octicon-link"></span></a>/etc/systemd/system/default.target</h3>
+<ul>
+<li>Configuration file for changing the default user interface</li>
+</ul>
+<h3 id="etcsystemd"><a class="anchor" name="etcsystemd" href="#etcsystemd"><span class="octicon octicon-link"></span></a>/etc/system.d</h3>
+<ul>
+<li>a symbolic link to a directory that contains a number of startup scripts. </li>
+<li>The startup scripts perform a number of functions, including initialization of network connections and startup of server daemon processes.</li>
+</ul>
+<h3 id="configuration-files-for-account-management"><a class="anchor" name="configuration-files-for-account-management" href="#configuration-files-for-account-management"><span class="octicon octicon-link"></span></a>Configuration files for account management</h3>
+<ul>
+<li>/etc/passwd
+Contains an entry for each user on the system
+e.g.  root:x:0:0:root:/root:/bin/bash</li>
+<li>/etc/group
+Contains definitions of groups and their corresponding members
+e.g.  SDA2::502:student1,student2,student3</li>
+<li>/etc/shadow
+Stores account password information and contains password aging information
+e.g.  juan:$1$.QKDPc5E$8F.:11956:0:90:5:30:12197:</li>
+</ul>
+<h3 id="etcfstab"><a class="anchor" name="etcfstab" href="#etcfstab"><span class="octicon octicon-link"></span></a>/etc/fstab</h3>
+<ul>
+<li>contains the file system table, which is a table of all disk partition, and their mount points and default mount options
+<img src="IT3901_fstab.png" alt="alt text"></li>
+<li>The first column is the device file name.</li>
+<li>The second column is the mount point.</li>
+<li>The third column in /etc/fstab specifies the filesystem type of the device or partition.</li>
+<li>The fourth column in fstab lists all the mount options for the device or partition.</li>
+<li>The 5th column in /etc/fstab is the dump option. Dump checks it and uses the number to decide if a filesystem should be backed up. If it is zero, dump will ignore that filesystem. If you take a look at the example fstab, the 5th column is zero in most cases.</li>
+<li>The 6th column is a fsck option. fsck looks at the number in the 6th column to determine in which order the filesystems should be checked. If it is zero, fsck will not check the filesystem.</li>
+</ul>
+<h1 id="backup"><a class="anchor" name="backup" href="#backup"><span class="octicon octicon-link"></span></a>Backup</h1>
+<h2 id="backup-types"><a class="anchor" name="backup-types" href="#backup-types"><span class="octicon octicon-link"></span></a>Backup types</h2>
+<ul>
+<li>Full backup</li>
+<li>Incremental backup</li>
+<li>Differential backup</li>
+</ul>
+<h2 id="incremental-backup"><a class="anchor" name="incremental-backup" href="#incremental-backup"><span class="octicon octicon-link"></span></a>Incremental backup</h2>
+<p><img src="IT3901_Incremental_backup.png" alt="alt text"></p>
+<h2 id="differential-backup"><a class="anchor" name="differential-backup" href="#differential-backup"><span class="octicon octicon-link"></span></a>Differential backup</h2>
+<p><img src="IT3901_Differential_backup.png" alt="alt text"></p>
+<h1 id="logging"><a class="anchor" name="logging" href="#logging"><span class="octicon octicon-link"></span></a>Logging</h1>
+<h2 id="type-of-logging"><a class="anchor" name="type-of-logging" href="#type-of-logging"><span class="octicon octicon-link"></span></a>Type of Logging</h2>
+<ul>
+<li>Software logs - Generated by running applications, these show the status of applications, errors and warnings.</li>
+<li>System logs - Generated by syslogd, these report the status of disks, hardware and system processes.</li>
+<li>Kernel logs - Generated by klogd, these are concerned with kernel processes, statistics and so on.</li>
+</ul>
+<h2 id="two-approaches-on-log-rotation"><a class="anchor" name="two-approaches-on-log-rotation" href="#two-approaches-on-log-rotation"><span class="octicon octicon-link"></span></a>Two Approaches on Log Rotation</h2>
+<h3 id="version-based"><a class="anchor" name="version-based" href="#version-based"><span class="octicon octicon-link"></span></a>version based</h3>
+<ul>
+<li>Version based rotated the log in such a way that the old file has a suffix 1, the older file has a suffix 2, etc. Each time log rotate N files are preserved.</li>
+</ul>
+<h3 id="date-based"><a class="anchor" name="date-based" href="#date-based"><span class="octicon octicon-link"></span></a>date based</h3>
+<ul>
+<li>Date based used daily or weekly of month rotation pattern and each rotated log is marked by timestamp.</li>
+</ul>
+<h2 id="why-logging-is-necessary"><a class="anchor" name="why-logging-is-necessary" href="#why-logging-is-necessary"><span class="octicon octicon-link"></span></a>Why logging is necessary?</h2>
+<ul>
+<li>Identify hardware problems</li>
+<li>Identify software problems</li>
+<li>Evidence of hack-in<blockquote>
+<p>e.g. IP-Address, actions</p>
+</blockquote>
+</li>
+<li>Record of user’s activities<blockquote>
+<p>e.g. command or script executed</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="why-logging-policy-is-necessary"><a class="anchor" name="why-logging-policy-is-necessary" href="#why-logging-policy-is-necessary"><span class="octicon octicon-link"></span></a>Why logging policy is necessary?</h2>
+<ul>
+<li>Disk space is limited (you cannot record all activities related to your system)</li>
+<li>Data has limited life cycle.</li>
+<li>e.g. log data of hardware may be only useful for a month.</li>
+</ul>
+<h1 id="command"><a class="anchor" name="command" href="#command"><span class="octicon octicon-link"></span></a>Command</h1>
+<h2 id="fdisk"><a class="anchor" name="fdisk" href="#fdisk"><span class="octicon octicon-link"></span></a>fdisk</h2>
+<ul>
+<li>manage the Linux partition</li>
+<li>e.g. fdisk /dev/sda</li>
+</ul>
+<h2 id="mkfs"><a class="anchor" name="mkfs" href="#mkfs"><span class="octicon octicon-link"></span></a>mkfs</h2>
+<ul>
+<li>used to put file system on the partition</li>
+<li>used to create et2/ext3/ext4 file system and 〃 mkswap〃 is used to create swap file system.</li>
+<li>e.g.</li>
+<li>mkfs -t ext3 /dev/sdb2</li>
+<li>mkfs -t ext4 /dev/sdb2  </li>
+<li>mkfs.ext3 /dev/sdb2</li>
+<li>mkfs.ext4 /dev/sdb2</li>
+</ul>
+<h2 id="mount"><a class="anchor" name="mount" href="#mount"><span class="octicon octicon-link"></span></a>mount</h2>
+<ul>
+<li>used to mount the partition into a mount point (a directory), to start using the filesystem.</li>
+<li>e.g. mount /dev/sda1 /mnt</li>
+</ul>
+<h3 id="automatic-mounting"><a class="anchor" name="automatic-mounting" href="#automatic-mounting"><span class="octicon octicon-link"></span></a>Automatic mounting</h3>
+<ul>
+<li>Add an entry in /etc/fstab</li>
+</ul>
+<h2 id="umount"><a class="anchor" name="umount" href="#umount"><span class="octicon octicon-link"></span></a>umount</h2>
+<ul>
+<li>e.g. umount /dev/sda1</li>
+</ul>
+<h2 id="man"><a class="anchor" name="man" href="#man"><span class="octicon octicon-link"></span></a>man</h2>
+<ul>
+<li>displays the manual pages of the command</li>
+</ul>
+<h2 id="pwd"><a class="anchor" name="pwd" href="#pwd"><span class="octicon octicon-link"></span></a>pwd</h2>
+<ul>
+<li>to see the current working directory</li>
+</ul>
+<h2 id="cd"><a class="anchor" name="cd" href="#cd"><span class="octicon octicon-link"></span></a>cd</h2>
+<ul>
+<li>used to change to other directory</li>
+<li>"." is another special directory. It means the current directory.</li>
+<li>".." means parent directory<blockquote>
+<p>e.g. the parent directory of /home/lily  is /home</p>
+</blockquote>
+</li>
+<li>"~" means home directory of the user</li>
+</ul>
+<h2 id="ls"><a class="anchor" name="ls" href="#ls"><span class="octicon octicon-link"></span></a>ls</h2>
+<ul>
+<li>lists the content of a directory</li>
+<li>"ls -a" lists all files, including hidden files.</li>
+<li>"ls -l" lists all files with detail information</li>
+<li>"ls -al" = "ls -la" = "ls -l -a"</li>
+</ul>
+<p><img src="IT3901_ls.png" alt="alt text"></p>
+<ul>
+<li>第一列共10位，第1位表示文??型，d表示目?，-表示文件，l表示?接文件，d表示可?机存取的??，如U?等，c表示一次性?取??，如鼠?、??等。</li>
+<li>后9位，依次??三种身份所?有的?限，身份?序?：owner、group、others，?限?序?：readable、writable、excutable。</li>
+<li>如：-r-xr-x---的含???前文?是一?文件，?有者可?、可?行，同一?群?下的用?，可?、可?行，其他人?有任何?限。</li>
+<li>第二列表示?接?，表示有多少?文件?接到inode??。</li>
+<li>第三列表示?有者</li>
+<li>第四列表示所?群?</li>
+<li>第五列表示文?容量大小，?位字?</li>
+<li>第六列表示文?最后修改??，注意不是文?的?建??哦</li>
+<li>第七列表示文?名?。以?(.)??的是?藏文?</li>
+</ul>
+<h2 id="cat-less-more"><a class="anchor" name="cat-less-more" href="#cat-less-more"><span class="octicon octicon-link"></span></a>cat, less, more</h2>
+<ul>
+<li>displays the content of a file (it should be an ASCII file)</li>
+</ul>
+<h2 id="cp"><a class="anchor" name="cp" href="#cp"><span class="octicon octicon-link"></span></a>cp</h2>
+<ul>
+<li>copies a file from one directory to another directory</li>
+</ul>
+<h2 id="mv"><a class="anchor" name="mv" href="#mv"><span class="octicon octicon-link"></span></a>mv</h2>
+<ul>
+<li>moves a file from one directory to anther directory</li>
+<li>renames a file in a directory</li>
+</ul>
+<h2 id="touch"><a class="anchor" name="touch" href="#touch"><span class="octicon octicon-link"></span></a>touch</h2>
+<ul>
+<li>used to update the time stamp of the file</li>
+<li>If the file is not exist, it creates the file</li>
+</ul>
+<h2 id="mkdir-directory"><a class="anchor" name="mkdir-directory" href="#mkdir-directory"><span class="octicon octicon-link"></span></a>mkdir [directory]</h2>
+<ul>
+<li>create directory</li>
+<li>-p: directory with path, e.g. mkdir -p retail/drinks/coffee</li>
+</ul>
+<h2 id="rm-directory"><a class="anchor" name="rm-directory" href="#rm-directory"><span class="octicon octicon-link"></span></a>rm [directory]</h2>
+<ul>
+<li>delete empty directory</li>
+<li>?工作目?下，名? AAA 的子目??除 :<blockquote>
+<p>rmdir AAA</p>
+</blockquote>
+</li>
+<li>在工作目?下的 BBB 目?中，?除名? Test 的子目?。若 Test ?除后，BBB 目?成?空目?，? BBB 亦予?除。<blockquote>
+<p>rmdir -p BBB/Test</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="rm"><a class="anchor" name="rm" href="#rm"><span class="octicon octicon-link"></span></a>rm</h2>
+<ul>
+<li>remove a file or directory</li>
+<li>parameters:</li>
+<li>-f: no confirmation</li>
+<li>-rf: removes the directory even it is not empty</li>
+</ul>
+<h2 id="find-path-argument-criteria"><a class="anchor" name="find-path-argument-criteria" href="#find-path-argument-criteria"><span class="octicon octicon-link"></span></a>find [path] –[argument] [criteria]</h2>
+<ul>
+<li>e.g.   〃find / -name john〃 </li>
+<li>This command start the search of the file 〃john〃  from 〃/〃</li>
+<li>e.g. 〃find  /home –name john.*" means the search started from directory 〃/home〃, targeted filename 〃john〃 with any extension</li>
+</ul>
+<h2 id="shutdown"><a class="anchor" name="shutdown" href="#shutdown"><span class="octicon octicon-link"></span></a>shutdown</h2>
+<ul>
+<li>Shutdown the machine<blockquote>
+<p>shutdown –h now</p>
+</blockquote>
+</li>
+<li>Reboot the machine<blockquote>
+<p>shutdown –r now</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>reboot</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="su"><a class="anchor" name="su" href="#su"><span class="octicon octicon-link"></span></a>su</h2>
+<ul>
+<li>Switch User</li>
+</ul>
+<h2 id="sudo"><a class="anchor" name="sudo" href="#sudo"><span class="octicon octicon-link"></span></a>sudo</h2>
+<ul>
+<li>execute a command as another user</li>
+</ul>
+<h2 id="ps"><a class="anchor" name="ps" href="#ps"><span class="octicon octicon-link"></span></a>ps</h2>
+<ul>
+<li>Lists processes currently running on system</li>
+<li>S field: Process States(Running (R), Sleeping (S), Stopped (T), Multi-threaded (I), Zombie (Z))<blockquote>
+<p>A zombie process is one which is no longer in effect. </p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>It is a process which has been killed.</p>
+</blockquote>
+</li>
+<li>UID field: Owner of this process</li>
+<li>PID field: Process ID</li>
+<li>NI field: Nice Value</li>
+</ul>
+<h2 id="top"><a class="anchor" name="top" href="#top"><span class="octicon octicon-link"></span></a>top</h2>
+<ul>
+<li>Displays list of running processes</li>
+</ul>
+<h3 id="cpu-fieldform-of-percentage"><a class="anchor" name="cpu-fieldform-of-percentage" href="#cpu-fieldform-of-percentage"><span class="octicon octicon-link"></span></a>%CPU field(Form of percentage)</h3>
+<ul>
+<li>Compares amount of CPU time used by process with total time elapsed since previous computation of %CPU field</li>
+</ul>
+<h3 id="wcpu-field"><a class="anchor" name="wcpu-field" href="#wcpu-field"><span class="octicon octicon-link"></span></a>%WCPU field</h3>
+<ul>
+<li>Weighted to show 30-second average of percentage of CPU time used by process </li>
+<li>Helpful for showing overall usage pattern</li>
+</ul>
+<h3 id="time-field"><a class="anchor" name="time-field" href="#time-field"><span class="octicon octicon-link"></span></a>TIME field</h3>
+<ul>
+<li>Provides cumulative measure of amount of CPU time consumed by process</li>
+</ul>
+<h2 id="kill"><a class="anchor" name="kill" href="#kill"><span class="octicon octicon-link"></span></a>kill</h2>
+<ul>
+<li>used to send signal to a running process, usually to request termination of a process.</li>
+<li>-l option views all signals</li>
+</ul>
+<h2 id="nice"><a class="anchor" name="nice" href="#nice"><span class="octicon octicon-link"></span></a>nice</h2>
+<ul>
+<li>to change the nice level when starting a new process</li>
+<li>$nice –n 5 myprocess(or nice -5 myprocess)</li>
+<li>$nice –n -10 myprocess</li>
+<li>the range of nice value a general user can set in a Linux system is 0 to +19</li>
+</ul>
+<h2 id="renice"><a class="anchor" name="renice" href="#renice"><span class="octicon octicon-link"></span></a>renice</h2>
+<ul>
+<li>to change the nice level of a running process</li>
+<li>$renice +10 1776</li>
+<li>$renice -8 1776</li>
+</ul>
+<h2 id="bg"><a class="anchor" name="bg" href="#bg"><span class="octicon octicon-link"></span></a>bg</h2>
+<ul>
+<li>Run suspended program in background</li>
+</ul>
+<h2 id="fg"><a class="anchor" name="fg" href="#fg"><span class="octicon octicon-link"></span></a>fg</h2>
+<ul>
+<li>Place suspended job in foreground</li>
+<li>Must specify: </li>
+<li>Job number using %</li>
+<li>Or PID</li>
+</ul>
+<h2 id="last"><a class="anchor" name="last" href="#last"><span class="octicon octicon-link"></span></a>last</h2>
+<ul>
+<li>used to list last logged in user</li>
+</ul>
+<h2 id="dmesg"><a class="anchor" name="dmesg" href="#dmesg"><span class="octicon octicon-link"></span></a>dmesg</h2>
+<ul>
+<li>used to print out the bootup messages<blockquote>
+<p>e.g. which hardware / software are started / initialized</p>
+</blockquote>
+</li>
+<li>Useful for identify problems</li>
+</ul>
+<h2 id="journalctl"><a class="anchor" name="journalctl" href="#journalctl"><span class="octicon octicon-link"></span></a>journalctl</h2>
+<ul>
+<li>used to interact with the journald which is a daemon manage some log files</li>
+<li>journald is a component of systemd</li>
+</ul>
+<h2 id="useradd-user_name"><a class="anchor" name="useradd-user_name" href="#useradd-user_name"><span class="octicon octicon-link"></span></a>useradd [user_name]</h2>
+<ul>
+<li>used to add user to a Linux system </li>
+<li>e.g. useradd student
+<img src="IT3901_useradd.png" alt="alt text"></li>
+</ul>
+<h2 id="usermod-user_name"><a class="anchor" name="usermod-user_name" href="#usermod-user_name"><span class="octicon octicon-link"></span></a>usermod [user_name]</h2>
+<ul>
+<li>used to change user’s information </li>
+<li>e.g. </li>
+<li>usermod -L tjones</li>
+<li>usermod -U tjones
+<img src="IT3901_usermod.png" alt="alt text"></li>
+</ul>
+<h2 id="userdel-user_name"><a class="anchor" name="userdel-user_name" href="#userdel-user_name"><span class="octicon octicon-link"></span></a>userdel [user_name]</h2>
+<ul>
+<li>used to remove users who no longer requires access to the system</li>
+<li>parameters:</li>
+<li>-r: remove the home directory of user and any files contained in it.</li>
+</ul>
+<h2 id="finger-user_name"><a class="anchor" name="finger-user_name" href="#finger-user_name"><span class="octicon octicon-link"></span></a>finger [user_name]</h2>
+<ul>
+<li>display the information of user</li>
+</ul>
+<h2 id="groupadd-group_name"><a class="anchor" name="groupadd-group_name" href="#groupadd-group_name"><span class="octicon octicon-link"></span></a>groupadd [group_name]</h2>
+<ul>
+<li>used to add new group to system.</li>
+<li>-g: Permits the specification of the group ID number instead of using the next-highest number defined by the system</li>
+<li>-o: Permits to add group with non-unique ID</li>
+</ul>
+<h2 id="groupdel-group_name"><a class="anchor" name="groupdel-group_name" href="#groupdel-group_name"><span class="octicon octicon-link"></span></a>groupdel [group_name]</h2>
+<ul>
+<li>used to remove a user group</li>
+</ul>
+<h2 id="groupmod-group_name"><a class="anchor" name="groupmod-group_name" href="#groupmod-group_name"><span class="octicon octicon-link"></span></a>groupmod [group_name]</h2>
+<ul>
+<li>used to adjust previously created groups</li>
+<li>parameters:</li>
+<li>-g gid  - change the numerical value of the group's ID. </li>
+<li>-n group_name - The name of the group will be changed from original group name to group_name.</li>
+</ul>
+<h2 id="chmod"><a class="anchor" name="chmod" href="#chmod"><span class="octicon octicon-link"></span></a>chmod</h2>
+<ul>
+<li>used to set the permission values for files and directories<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Permission</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>r</td>
+<td>Read</td>
+<td>4</td>
+</tr>
+<tr>
+<td>w</td>
+<td>Write</td>
+<td>2</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Execute</td>
+<td>1</td>
+</tr>
+</tbody></table>
+</li>
+<li>e.g The following chmod command (in octal form) gives</li>
+<li>Owner 	=&gt; Read, write and execute permission</li>
+<li>Group 	=&gt; Read and execute permission</li>
+<li>Everyone	=&gt; Read only permission</li>
+<li>[root@myLinux]#chmod 754 examination.doc</li>
+</ul>
+<h2 id="chown"><a class="anchor" name="chown" href="#chown"><span class="octicon octicon-link"></span></a>chown</h2>
+<ul>
+<li>used to change the ownership of a file to someone else</li>
+<li>Only the root user can use this command</li>
+<li>[root@myLinux]#chown student tutorial.doc</li>
+<li>The -R option applies when the specified filename is a directory name.</li>
+<li>[root@myLinux]#chown -R student tutdir</li>
+</ul>
+<h2 id="chgrp"><a class="anchor" name="chgrp" href="#chgrp"><span class="octicon octicon-link"></span></a>chgrp</h2>
+<ul>
+<li>used to change the group settings of a file</li>
+<li>It works much like chown</li>
+<li>[root@myLinux]#chgrp student tutorial.doc</li>
+<li>The -R option applies when the specified filename is a directory name.</li>
+<li>[root@myLinux]#chgrp -R student tutdir</li>
+</ul>
+<h2 id="passwd-"><a class="anchor" name="passwd-" href="#passwd-"><span class="octicon octicon-link"></span></a>passwd <user_name></user_name></h2>
+<ul>
+<li>used to change the password of an established account</li>
+<li>can be invoked by generic system users as well as the system administrator</li>
+<li>Remark: -l and -u options in passwd can be set to lock and unlock the user’s account.</li>
+<li>-d: delete password</li>
+</ul>
+<h2 id="ln-target_file-file_path"><a class="anchor" name="ln-target_file-file_path" href="#ln-target_file-file_path"><span class="octicon octicon-link"></span></a>ln [target_file] [file_path]</h2>
+<ul>
+<li>Both hard links and symbolic/soft links can be created using the ln command.</li>
+<li>While the –s option of the ln command creates a symbolic link, with no option it creates a hard link.</li>
+<li>e.g.</li>
+<li>ln abc.txt  mylink.txt &lt;= hard link</li>
+<li>ln –s abc.txt mylink.txt &lt;= symbolic link</li>
+</ul>
+</div></body></html>
